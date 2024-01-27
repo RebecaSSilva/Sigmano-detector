@@ -21,7 +21,7 @@ Banco de dados MySQL
 Instruções de Configuração:
 
 git clone https://github.com/RebecaSSilva/Sigmano-detector.git
-cd sigmano-detector
+cd Sigmano-detector
 
 composer install
 
