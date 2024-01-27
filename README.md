@@ -20,8 +20,8 @@ Laravel
 Banco de dados MySQL
 Instruções de Configuração:
 
-git clone https://github.com/seu-usuario/verificador-dna.git
-cd verificador-dna
+git clone https://github.com/RebecaSSilva/Sigmano-detector.git
+cd sigmano-detector
 
 composer install
 
