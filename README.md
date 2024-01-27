@@ -55,6 +55,6 @@ Execute os testes unitários para garantir a integridade da aplicação:
 
 php artisan test
 
-![image](https://github.com/RebecaSSilva/Sigmano-detector/assets/102828612/6fa99b9f-fc40-468a-91b1-f9964d43440f)
-![image](https://github.com/RebecaSSilva/Sigmano-detector/assets/102828612/4df7dee0-0be6-4c4d-b498-5fa7eca3cbcd)
+![image](https://github.com/RebecaSSilva/Sigmano-detector/assets/102828612/630c4306-9ec1-4335-bf2c-875a79cbcf7b)
 
+![image](https://github.com/RebecaSSilva/Sigmano-detector/assets/102828612/c3c76fff-06c0-420c-bf26-447378a3364d)
