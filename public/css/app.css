@@ -1,0 +1,219 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #001f3f, #8a0075);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s ease; 
+}
+
+#historico {
+    display: none;
+}
+
+#historico {
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-left: 42px;
+    max-height: 500px;
+    width: 80%;
+    max-width: 600px;
+    overflow-y: auto;
+}
+
+.historico-titulo {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 82px;
+    color: #f8eaff;
+    font-size: 20px;
+}
+
+.historico-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.historico-header button {
+    margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5b158d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(179, 179, 232, 0.5);
+}
+
+.historico-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.historico-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.historico-item:hover {
+    transform: scale(1.05);
+}
+
+.historico-sequencia {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+#verificador {
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-left: 42px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #f8eaff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+table {
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    overflow-x: auto; 
+}
+
+table input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    margin: 2px;
+    background-color: #faf9fb;
+}
+
+table, th, td {
+    border: 1px solid #f8eaff;
+}
+
+th, td {
+    padding: 5px;
+}
+
+input {
+    width: 40px; 
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 1px solid #5b158d;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+button {
+    background-color: #2a2659;
+    color: #f8eaff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1e1f65;
+}
+
+label#label-sequencia {
+    display: block;
+    margin-bottom: 10px;
+    color: #f8eaff;
+}
+
+#resultado {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #f8eaff;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgba(179, 179, 232, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    color: #ac2626;
+    z-index: 1000;
+}
+
+.custom-popup.show {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.fechar-icon {
+    background-color: #ac2626;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.fechar-icon:hover {
+    background-color: #2a2659;
+}
+
+@media only screen and (max-width: 600px) {
+    table {
+        margin-left: 0; 
+    }
+
+    #historico, #verificador {
+        width: 100%; 
+        margin-left: 0;
+    }
+}
